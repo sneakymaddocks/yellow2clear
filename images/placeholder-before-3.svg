@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="BEFORE placeholder headlight image">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3f47"/>
+      <stop offset="1" stop-color="#0b0f14"/>
+    </linearGradient>
+    <radialGradient id="clearGrad" cx="45%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#eaf3ff"/>
+      <stop offset="0.45" stop-color="#9dbfe6"/>
+      <stop offset="1" stop-color="#22354d"/>
+    </radialGradient>
+    <radialGradient id="hazeGrad" cx="45%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#f1e2a8"/>
+      <stop offset="0.5" stop-color="#c9a94f"/>
+      <stop offset="1" stop-color="#5a4a1e"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter>
+    <clipPath id="lens"><path d="M300 400 C300 260 420 190 640 190 C820 190 960 250 960 330 C960 470 800 610 620 610 C420 610 300 540 300 400 Z"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="url(#paint)"/>
+  <!-- bonnet line and bumper -->
+  <path d="M0 150 Q600 90 1200 170 L1200 0 L0 0 Z" fill="#0b0f14" opacity="0.55"/>
+  <path d="M0 640 Q600 690 1200 640 L1200 800 L0 800 Z" fill="#0b0f14" opacity="0.6"/>
+  <!-- headlight housing -->
+  <path d="M280 400 C280 245 415 170 640 170 C835 170 985 240 985 330 C985 485 810 635 620 635 C410 635 280 555 280 400 Z" fill="#05070a"/>
+  <!-- lens -->
+  <g clip-path="url(#lens)">
+    <rect x="280" y="170" width="720" height="480" fill="url(#hazeGrad)"/>
+    <!-- projector -->
+    <circle cx="520" cy="400" r="120" fill="none" stroke="rgba(255,220,120,0.55)" stroke-width="10"/>
+    <circle cx="520" cy="400" r="78" fill="#8b7a3a" stroke="rgba(255,220,120,0.55)" stroke-width="6"/>
+    <circle cx="520" cy="400" r="34" fill="#c6b06a"/>
+    <!-- DRL strip -->
+    <path d="M330 300 C420 230 640 215 900 260" fill="none" stroke="#b9a35a" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+    <!-- indicator -->
+    <ellipse cx="790" cy="450" rx="110" ry="60" fill="#a08a3e" stroke="rgba(255,220,120,0.55)" stroke-width="6"/>
+    <g filter="url(#blur)" opacity="0.85">
+         <ellipse cx="640" cy="400" rx="330" ry="180" fill="#e8c65a" opacity="0.55"/>
+         <ellipse cx="520" cy="350" rx="140" ry="90" fill="#f3d98a" opacity="0.45"/>
+         <ellipse cx="760" cy="450" rx="170" ry="100" fill="#d9b24a" opacity="0.5"/>
+       </g>
+       <g opacity="0.35">
+         <circle cx="340" cy="250" r="2" fill="#fff3c4"/><circle cx="477" cy="339" r="3" fill="#fff3c4"/><circle cx="614" cy="428" r="4" fill="#fff3c4"/><circle cx="751" cy="517" r="5" fill="#fff3c4"/><circle cx="888" cy="306" r="6" fill="#fff3c4"/><circle cx="405" cy="395" r="2" fill="#fff3c4"/><circle cx="542" cy="484" r="3" fill="#fff3c4"/><circle cx="679" cy="273" r="4" fill="#fff3c4"/><circle cx="816" cy="362" r="5" fill="#fff3c4"/><circle cx="953" cy="451" r="6" fill="#fff3c4"/><circle cx="470" cy="540" r="2" fill="#fff3c4"/><circle cx="607" cy="329" r="3" fill="#fff3c4"/><circle cx="744" cy="418" r="4" fill="#fff3c4"/><circle cx="881" cy="507" r="5" fill="#fff3c4"/><circle cx="398" cy="296" r="6" fill="#fff3c4"/><circle cx="535" cy="385" r="2" fill="#fff3c4"/><circle cx="672" cy="474" r="3" fill="#fff3c4"/><circle cx="809" cy="263" r="4" fill="#fff3c4"/><circle cx="946" cy="352" r="5" fill="#fff3c4"/><circle cx="463" cy="441" r="6" fill="#fff3c4"/><circle cx="600" cy="530" r="2" fill="#fff3c4"/><circle cx="737" cy="319" r="3" fill="#fff3c4"/><circle cx="874" cy="408" r="4" fill="#fff3c4"/><circle cx="391" cy="497" r="5" fill="#fff3c4"/><circle cx="528" cy="286" r="6" fill="#fff3c4"/><circle cx="665" cy="375" r="2" fill="#fff3c4"/><circle cx="802" cy="464" r="3" fill="#fff3c4"/><circle cx="939" cy="253" r="4" fill="#fff3c4"/><circle cx="456" cy="342" r="5" fill="#fff3c4"/><circle cx="593" cy="431" r="6" fill="#fff3c4"/><circle cx="730" cy="520" r="2" fill="#fff3c4"/><circle cx="867" cy="309" r="3" fill="#fff3c4"/><circle cx="384" cy="398" r="4" fill="#fff3c4"/><circle cx="521" cy="487" r="5" fill="#fff3c4"/><circle cx="658" cy="276" r="6" fill="#fff3c4"/><circle cx="795" cy="365" r="2" fill="#fff3c4"/><circle cx="932" cy="454" r="3" fill="#fff3c4"/><circle cx="449" cy="543" r="4" fill="#fff3c4"/><circle cx="586" cy="332" r="5" fill="#fff3c4"/><circle cx="723" cy="421" r="6" fill="#fff3c4"/><circle cx="860" cy="510" r="2" fill="#fff3c4"/><circle cx="377" cy="299" r="3" fill="#fff3c4"/><circle cx="514" cy="388" r="4" fill="#fff3c4"/><circle cx="651" cy="477" r="5" fill="#fff3c4"/><circle cx="788" cy="266" r="6" fill="#fff3c4"/><circle cx="925" cy="355" r="2" fill="#fff3c4"/><circle cx="442" cy="444" r="3" fill="#fff3c4"/><circle cx="579" cy="533" r="4" fill="#fff3c4"/><circle cx="716" cy="322" r="5" fill="#fff3c4"/><circle cx="853" cy="411" r="6" fill="#fff3c4"/><circle cx="370" cy="500" r="2" fill="#fff3c4"/><circle cx="507" cy="289" r="3" fill="#fff3c4"/><circle cx="644" cy="378" r="4" fill="#fff3c4"/><circle cx="781" cy="467" r="5" fill="#fff3c4"/><circle cx="918" cy="256" r="6" fill="#fff3c4"/><circle cx="435" cy="345" r="2" fill="#fff3c4"/><circle cx="572" cy="434" r="3" fill="#fff3c4"/><circle cx="709" cy="523" r="4" fill="#fff3c4"/><circle cx="846" cy="312" r="5" fill="#fff3c4"/><circle cx="363" cy="401" r="6" fill="#fff3c4"/>
+       </g>
+  </g>
+  <!-- glass edge highlight -->
+  <path d="M300 400 C300 260 420 190 640 190 C820 190 960 250 960 330" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="4"/>
+  <g transform="translate(60 720)">
+    <text font-family="Inter, Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.55)">Placeholder image 3 — replace with a real photo (see images/README.md)</text>
+  </g>
+</svg>
