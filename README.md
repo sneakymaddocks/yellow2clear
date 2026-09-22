@@ -30,7 +30,7 @@ Everything below lives in **`js/config.js`**.
 | Email, opening hours | `BUSINESS.email`, `BUSINESS.hours` |
 | Guarantee length | `BUSINESS.guaranteeMonths` |
 | Prices | `PRICES.default` (`single`, `both`) |
-| Special prices for specific cars | `PRICES.overrides`, e.g. `"Land Rover|Range Rover Sport": { single: 70, both: 110 }` |
+| Special prices for specific cars | `PRICES.overrides`, e.g. `"Land Rover\|Range Rover Sport": { single: 70, both: 110 }` |
 | Areas listed | `AREAS.primary`, `AREAS.extended` |
 | Before/after photos | `GALLERY` list (see `images/README.md`) |
 | Live domain for SEO tags | `BUSINESS.siteUrl`, plus the `canonical` link and `og:` tags in `index.html`, and `sitemap.xml` |
